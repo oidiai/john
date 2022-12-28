@@ -123,6 +123,67 @@ header nav li:hover a{
     display: block
 }
 
+
+
+/*recent posts section*/
+.recent_posts{
+    background-color: #EDF7FA;
+    padding-top: 12px;
+    padding-bottom: 32px;
+}
+.recent_container{
+    max-width: 856px;
+    margin: auto;
+}
+.recent_info{
+    font: 400 22px/60px 'Heebo', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #21243D;
+    margin-bottom: 2px;
+}
+.recent_info a{
+    font: 400 16px/24px 'Heebo', sans-serif;
+    color: #00A8CC;
+    text-decoration: none;
+    cursor: pointer;
+}
+.recent_posts .articles{
+    display: flex;
+    justify-content: space-between;
+}
+.recent_posts article{
+    background-color: #FFF;
+    padding: 24px 21px 7px 23px;
+    margin-right: 20px;
+}
+.recent_posts article:last-child{
+    margin-right: 0;
+}
+.recent_posts article h3{
+    font: 700 26px/38px 'Heebo', sans-serif;
+    color: #21243D;
+    margin-bottom: 17px;
+}
+.article_data{
+    font: 400 18px/26px 'Heebo', sans-serif;
+    color: #21243D;
+    margin-bottom: 11px;
+    display: inline-flex;
+}
+.article_data:last-child{
+    border-left: solid 1px #000;
+    margin-left: 25px;
+    padding-left: 25px;
+}
+.recent_posts article p{
+    font: 400 16px/24px 'Heebo', sans-serif;
+    color: #21243D;
+}
+
+
+
 /*beginning of featured section*/
 .featured_works_section{
     padding: 15px 0 83px 0;
@@ -183,6 +244,9 @@ header nav li:hover a{
     font: 400 16px/24px 'Heebo', sans-serif;
     color: #21243D;
 }
+
+
+
 
 /*beginning of form section*/
 .section_form{
@@ -250,6 +314,9 @@ form button{
     border: solid 1px #7EC4BD;
 }
 
+
+
+
 footer{
     margin-bottom: 54px;
     margin-top: 51px;
@@ -304,4 +371,58 @@ footer li{/*for every new social media*/
     border-radius: 50%;
     background-color: #7EC4BD;
     margin-right: 5px;
+}
+
+
+
+
+
+
+/**/
+/*BLOG STYLES*/
+/**/
+
+#header_blog{
+    color: #FF6464;
+}
+.blog_section{
+    padding-top: 106px;
+    padding-bottom: 53px;
+}
+.blog_container{
+    max-width: 681px;
+    margin: auto;}
+.blog_box{
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 32px;
+}
+.blog_box:last-child{
+    margin-bottom: 0;
+}
+.blog_container h1{
+    font: 700 44px/60px 'Heebo', sans-serif;
+    color: #21243D;
+    margin-bottom: 55px;
+}
+.blog_box h3 {
+    font: 500 30px/44px 'Heebo', sans-serif;
+    color: #21243D;
+    margin-bottom: 16px;
+}
+.blog_info_one{
+    font: 400 20px/29px 'Heebo', sans-serif;
+    color: #21243D;
+    margin-bottom: 15px;
+    display: inline-flex;
+}
+.blog_info_one:last-child{
+    color: #8695A4;
+    border-left: solid 1px #000;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.blog_box p{
+    font: 400 16px/24px 'Heebo', sans-serif;
+    color: #21243D;
+    margin-bottom: 29px;
 }
